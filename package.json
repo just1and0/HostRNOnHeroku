@@ -7,7 +7,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "start-expo": "npm start -p $PORT",
-    "heroku-postbuild": "expo build:web"
+    "heroku-postbuild": "yarn web"
   },
   "dependencies": {
     "expo": "~38.0.8",
