@@ -1,13 +1,13 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start -p $PORT",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
     "start-expo": "npm start -p $PORT",
-    "heroku-postbuild": "yarn web"
+    "heroku-postbuild": "expo build:web"
   },
   "dependencies": {
     "expo": "~38.0.8",
